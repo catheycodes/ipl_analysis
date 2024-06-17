@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:ipl_analysis/Home_Screen.dart';
@@ -17,14 +16,14 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    // Animate text opacity to fade in
+
     Timer(Duration(milliseconds: 500), () {
       setState(() {
         _textOpacity = 1.0;
       });
     });
 
-    // Navigate to the second page after 2 seconds
+ 
     Timer(Duration(seconds: 2), () {
       Navigator.pushReplacement(
           context, MaterialPageRoute(builder: (context) => SecondPage()));
