@@ -34,7 +34,7 @@ class _PlayerInputPageState extends State<PlayerInputPage> {
         _wicketsController.clear();
         _outsController.clear();
 
-        // Check if there are exactly 5 players, then enable the "View Player Stats" button
+        
         if (_players.length == 5) {
           _showStatsButton = true;
         } else {
