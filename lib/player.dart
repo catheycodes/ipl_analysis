@@ -1,5 +1,3 @@
-
-
 class Player {
   String name;
   int matches;
