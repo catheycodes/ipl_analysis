@@ -1,6 +1,4 @@
-# ipl_analysis
-
-A new Flutter project.
+IPL Analysis Project
 
 ## Getting Started
 
